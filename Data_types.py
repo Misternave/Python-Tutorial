@@ -1,3 +1,5 @@
+import math
+
 first = "Dave"
 last = "Gray"
 
@@ -60,3 +62,47 @@ print(title.center(20, "="))
 print("Coffee".ljust(16, ".") + "1€".rjust(4))
 print("Water".ljust(16, ".") + "2€".rjust(4))
 print("Bread".ljust(16, ".") + "4€".rjust(4))
+
+# string index values
+print(first[1])
+print(first[-1])
+print(first[1:-1])
+print(first[1:])
+
+# methos return boolean
+print(first.startswith("D"))
+print(first.endswith("Z"))
+
+# Boolean data type
+myvalue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
+
+# integer type
+price = 100
+best_price = int(90)
+print(type(price))
+print(isinstance(best_price, int))
+
+# float type
+gpa = 3.28
+y = float(1.14)
+z = 1.15
+print(type(gpa))
+print(type(y))
+print(type(z))
+
+# complex type
+compl_value = 5 + 3j
+print(type(compl_value))
+print(compl_value)
+print(compl_value.real)
+print(compl_value.imag)
+
+# built in function
+print(abs(gpa))
+print(round(gpa))
+print(round(gpa, 1))
+
+print(math.pi)
