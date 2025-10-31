@@ -33,3 +33,30 @@ i was just checking in.
                 All good?
 """
 print(multiline)
+
+# escaping special characters
+sentence = "I 'm back \t Hey! \n\n where this at\\located?"
+print(sentence)
+
+# string methods
+print(first)
+print(first.lower())
+print(first.upper())
+print(first)
+print(multiline.title())
+print(multiline.replace("good", "ok"))
+print(multiline)
+print(len(multiline))
+multiline = "                                               " + multiline
+multiline += "                                                 "
+print(len(multiline))
+print(len(multiline.strip()))
+print(len(multiline.lstrip()))
+print(len(multiline.rstrip()))
+
+# Build a Menu
+title = "menu".upper()
+print(title.center(20, "="))
+print("Coffee".ljust(16, ".") + "1€".rjust(4))
+print("Water".ljust(16, ".") + "2€".rjust(4))
+print("Bread".ljust(16, ".") + "4€".rjust(4))
