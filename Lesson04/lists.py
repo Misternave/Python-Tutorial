@@ -80,6 +80,7 @@ print(mycopy)
 # Tuples -- tuples cannot be changed
 
 mytuple = tuple(("dave", 42, True))
+print(mytuple)
 anothertuple = (1, 4, 2, 8)
 
 (one, two, *hey) = anothertuple
