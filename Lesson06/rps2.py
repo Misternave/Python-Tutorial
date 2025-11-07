@@ -19,7 +19,7 @@ while playagain:
 
     player = int(playerchoice)
 
-    if player < 1 or player > 2:
+    if player < 1 or player > 3:
         sys.exit("You must enter 1, 2 or 3")
 
     computer = random.choice("123")
